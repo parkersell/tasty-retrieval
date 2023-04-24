@@ -62,7 +62,7 @@ def main():
     dataset = {'images':[], 'dataset':'tasty'}
     skipped = []
     for i, recipe_path in enumerate(tqdm(recipes)):
-        if i > 50: break
+        # if i > 50: break
         try:
             recipe = load_recipe(recipe_path)
         except FileNotFoundError:
