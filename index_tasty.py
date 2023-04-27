@@ -8,5 +8,5 @@ data_path = '/home/parker-alien/Documents/CV-586/tasty_data'
 RetrievalDataset.make_tasty_dataset_index(
     data_path=data_path,
     tokenizer=tokenizer,
-    file_name='dataset_tasty',
+    file_name='dataset_1000_tasty_1_image_prompt3',
 )
